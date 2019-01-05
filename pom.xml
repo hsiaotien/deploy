@@ -29,7 +29,27 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.binance.api</groupId>
+            <artifactId>binance-api-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
+    <!--从哪里找,这里配置，或者settings配置都可以-->
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>public</id>-->
+            <!--<url>http://192.168.50.190:8081/nexus/content/repositories/public/</url>-->
+        <!--</repository>-->
+        <!--<repository>-->
+            <!--<id>public-snapshots</id>-->
+            <!--<url>http://192.168.50.190:8081/nexus/content/repositories/snapshots/</url>-->
+        <!--</repository>-->
+        <!--<repository>-->
+            <!--<id>Central</id>-->
+            <!--<url>http://192.168.50.190:8081/nexus/content/repositories/central/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
     <build>
         <plugins>
